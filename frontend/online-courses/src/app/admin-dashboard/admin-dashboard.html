@@ -1,0 +1,129 @@
+<div class="dashboard-root">
+  <!-- Loading State -->
+  <ng-container *ngIf="isLoading; else loaded">
+    <div class="loading-box">
+      <mat-spinner diameter="48"></mat-spinner>
+      <div class="loading-text">Loading dashboard...</div>
+    </div>
+  </ng-container>
+
+  <!-- Loaded State -->
+  <ng-template #loaded>
+    <!-- Error State -->
+    <ng-container *ngIf="error; else content">
+      <mat-card class="error-card">
+        <mat-card-title>Error</mat-card-title>
+        <mat-card-content>{{ error }}</mat-card-content>
+      </mat-card>
+    </ng-container>
+
+    <!-- Main Content -->
+    <ng-template #content>
+      <!-- Header -->
+      <div class="header">
+        <h2>📊 Admin Dashboard</h2>
+      </div>
+
+      <!-- KPI Row -->
+      <div class="kpi-grid">
+        <mat-card class="kpi-card" *ngFor="let kpi of [
+          { label: 'Students', value: totalStudents },
+          { label: 'Courses', value: totalCourses },
+          { label: 'Instructors', value: totalInstructors },
+          { label: 'Assignments', value: totalAssignments },
+          { label: 'Revenue (total)', value: (totalPayments| currency:'INR': 'symbol':'1.2-2':'en-IN'  ) }
+        ]">
+          <div class="kpi-value">{{ kpi.value }}</div>
+          <div class="kpi-label">{{ kpi.label }}</div>
+        </mat-card>
+      </div>
+
+      <!-- Chart -->
+      <mat-card class="chart-card">
+        <mat-card-title>Recent Payments Trend</mat-card-title>
+        <mat-card-content>
+          <div *ngIf="lineChartData && lineChartData.labels && lineChartData.labels.length > 0; else noChart">
+            <canvas baseChart
+                    [data]="lineChartData"
+                    [options]="lineChartOptions"
+                    [type]="'line'"></canvas>
+          </div>
+          <ng-template #noChart>
+            <div class="no-data">📉 No payment history available.</div>
+          </ng-template>
+        </mat-card-content>
+      </mat-card>
+
+      <!-- Tables Row -->
+      <div class="tables-grid">
+        <!-- Latest Enrollments -->
+        <mat-card class="table-card">
+          <mat-card-title>Latest Enrollments</mat-card-title>
+          <mat-card-content>
+            <table mat-table [dataSource]="enrollmentsData" class="full-table mat-elevation-z2">
+              <!-- Table Columns -->
+              <ng-container matColumnDef="enrollmentID">
+                <th mat-header-cell *matHeaderCellDef>ID</th>
+                <td mat-cell *matCellDef="let r">{{ r.enrollmentID }}</td>
+              </ng-container>
+              <ng-container matColumnDef="userID">
+                <th mat-header-cell *matHeaderCellDef>Student ID</th>
+                <td mat-cell *matCellDef="let r">{{ r.userID }}</td>
+              </ng-container>
+              <ng-container matColumnDef="courseID">
+                <th mat-header-cell *matHeaderCellDef>Course ID</th>
+                <td mat-cell *matCellDef="let r">{{ r.courseID }}</td>
+              </ng-container>
+              <ng-container matColumnDef="enrollmentDate">
+                <th mat-header-cell *matHeaderCellDef>Date</th>
+                <td mat-cell *matCellDef="let r">{{ r.enrollmentDate | date:'mediumDate' }}</td>
+              </ng-container>
+              <ng-container matColumnDef="status">
+                <th mat-header-cell *matHeaderCellDef>Status</th>
+                <td mat-cell *matCellDef="let r">{{ r.status }}</td>
+              </ng-container>
+
+              <tr mat-header-row *matHeaderRowDef="enrollCols"></tr>
+              <tr mat-row *matRowDef="let row; columns: enrollCols;"></tr>
+            </table>
+          </mat-card-content>
+        </mat-card>
+
+        <!-- Latest Payments -->
+        <mat-card class="table-card">
+          <mat-card-title>Latest Payments</mat-card-title>
+          <mat-card-content>
+            <table mat-table [dataSource]="paymentsData" class="full-table mat-elevation-z2">
+              <!-- Columns -->
+              <ng-container matColumnDef="paymentID">
+                <th mat-header-cell *matHeaderCellDef>ID</th>
+                <td mat-cell *matCellDef="let p">{{ p.paymentID }}</td>
+              </ng-container>
+              <ng-container matColumnDef="userID">
+                <th mat-header-cell *matHeaderCellDef>Student ID</th>
+                <td mat-cell *matCellDef="let p">{{ p.userID }}</td>
+              </ng-container>
+              <ng-container matColumnDef="amount">
+                <th mat-header-cell *matHeaderCellDef>Amount</th>
+                <td mat-cell *matCellDef="let p">{{ p.amount | currency:'INR':'symbol':'1.2-2':'en-IN' }}</td>
+
+              </ng-container>
+              <ng-container matColumnDef="paymentDate">
+                <th mat-header-cell *matHeaderCellDef>Date</th>
+                <td mat-cell *matCellDef="let p">{{ p.paymentDate | date:'mediumDate' }}</td>
+              </ng-container>
+              <ng-container matColumnDef="paymentStatus">
+                <th mat-header-cell *matHeaderCellDef>Status</th>
+                <td mat-cell *matCellDef="let p">{{ p.paymentStatus }}</td>
+              </ng-container>
+
+              <tr mat-header-row *matHeaderRowDef="paymentsCols"></tr>
+              <tr mat-row *matRowDef="let row; columns: paymentsCols;"></tr>
+            </table>
+          </mat-card-content>
+        </mat-card>
+
+      </div>
+    </ng-template>
+  </ng-template>
+</div>

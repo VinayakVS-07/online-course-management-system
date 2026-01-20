@@ -1,0 +1,47 @@
+
+
+
+.profile-card {
+  max-width: 450px;
+  margin: 2rem auto;
+  gap: 2px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background: #fdfafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+h2 {
+ text-align: center;
+ font-weight: 600;
+font-size:x-large;
+  margin-top: 2px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+ 
+}
+
+.profile-pic-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+

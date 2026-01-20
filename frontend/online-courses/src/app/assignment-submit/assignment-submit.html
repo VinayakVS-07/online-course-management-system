@@ -1,0 +1,49 @@
+<mat-card class="submit-card">
+  <h2>Submit Assignment</h2>
+
+   <div *ngIf="assignment">
+    <p><strong>{{ assignment.title }}</strong><br /></p>
+    <p>{{ assignment.description }}<br /></p>
+   <p> Due: {{ assignment.dueDate | date: 'mediumDate' }}</p>
+
+
+  <div *ngIf="assignment.fileURL">
+    <p>
+      <strong>Attached File:</strong>
+      <a [href]="auth.getFullFileUrl(assignment.fileURL)" target="_blank">View File</a>
+    </p>
+  </div>
+
+    <div *ngIf="assignment.fileURL">
+      <p>
+        <strong>Attached link:</strong>
+        <a [href]="assignment.fileURL" target="_blank">View link</a>
+      </p>
+    </div>
+  </div>
+
+
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Paste File URL (e.g., from Google Drive or OneDrive)</mat-label>
+    <input matInput [(ngModel)]="submissionURL" placeholder="https://..." />
+  </mat-form-field>
+
+    <div class="full-width">
+    <label>Or upload a file</label><br />
+    <input type="file" (change)="onFileSelected($event)" />
+  </div>
+
+
+  
+  <button
+    mat-flat-button
+    color="primary"
+    [disabled]="!submissionURL && !selectedFile"
+    (click)="submitAssignment()"
+  >
+    Submit
+  </button>
+</mat-card>
+
+
+

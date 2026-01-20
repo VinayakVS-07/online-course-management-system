@@ -1,0 +1,47 @@
+<mat-card class="submission-card">
+
+  <table mat-table [dataSource]="submissions" class="mat-elevation-z2 full-width-table">
+
+    <!-- Assignment Title -->
+    <ng-container matColumnDef="assignmentTitle">
+      <th mat-header-cell *matHeaderCellDef>Assignment</th>
+      <td mat-cell *matCellDef="let s">{{ s.assignmentTitle }}</td>
+    </ng-container>
+
+    <!-- Course Title -->
+    <ng-container matColumnDef="courseTitle">
+      <th mat-header-cell *matHeaderCellDef>Course</th>
+      <td mat-cell *matCellDef="let s">{{ s.courseTitle }}</td>
+    </ng-container>
+
+    <!-- Submitted On -->
+    <ng-container matColumnDef="submissionOn">
+      <th mat-header-cell *matHeaderCellDef>Submitted</th>
+      <td mat-cell *matCellDef="let s">{{ s.submissionOn | date:'short' }}</td>
+    </ng-container>
+
+    <!-- File Link -->
+    <ng-container matColumnDef="fileURL">
+      <th mat-header-cell *matHeaderCellDef>File</th>
+      <td mat-cell *matCellDef="let s">
+        <a [href]="s.fileURL" target="_blank">View File</a>
+      </td>
+    </ng-container>
+
+    <!-- Grade -->
+    <ng-container matColumnDef="grade">
+      <th mat-header-cell *matHeaderCellDef>Grade</th>
+      <td mat-cell *matCellDef="let s">{{ s.grade ?? 'Pending' }}</td>
+    </ng-container>
+
+    <!-- Feedback -->
+    <ng-container matColumnDef="feedback">
+      <th mat-header-cell *matHeaderCellDef>Feedback</th>
+      <td mat-cell *matCellDef="let s">{{ s.feedback ?? '---' }}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="['assignmentTitle', 'courseTitle', 'submissionOn', 'fileURL', 'grade', 'feedback']"></tr>
+    <tr mat-row *matRowDef="let row; columns: ['assignmentTitle', 'courseTitle', 'submissionOn', 'fileURL', 'grade', 'feedback']"></tr>
+  </table>
+</mat-card>
+

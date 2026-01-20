@@ -1,0 +1,120 @@
+:host {
+  display: block;
+  padding: 20px;
+  max-width: 520px;
+  background: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 16px 0 10px;
+  color: #444;
+  font-weight: 500;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+   max-height: 160px;
+  overflow-y: auto;
+}
+
+.user {
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+  font-size: 14px;
+  user-select: none;
+  background-color: #f2f2f2;
+}
+
+.user:hover {
+  background-color: #e5e5e5;
+}
+
+.user.student {
+  color: #1a73e8;
+}
+
+.user.instructor {
+  color: #d93025;
+}
+
+.user.selected {
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+  border-color: #007bff;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.actions button {
+  padding: 8px 18px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.actions button:first-child {
+  background-color: #28a745;
+  color: white;
+}
+
+.actions button:first-child:hover {
+  background-color: #218838;
+}
+
+.actions button:last-child {
+  background-color: #dee2e6;
+  color: #333;
+}
+
+.actions button:last-child:hover {
+  background-color: #cfd4d8;
+}
+

@@ -1,0 +1,77 @@
+.support-container {
+  margin: 25px auto;
+  max-width: 600px;
+  padding: 2rem;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 12px;
+   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.support-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #3f51b5;
+}
+
+
+.support-form mat-form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.success-message {
+  margin-top: 1rem;
+  color: green;
+}
+
+.error-message {
+  margin-top: 1rem;
+  color: red;
+}
+
+.support-footer {
+  margin-top: 2rem;
+  font-size: 0.95rem;
+  text-align: center;
+  color: #555;
+}
+
+.support-footer a {
+  color: #3f51b5;
+  text-decoration: underline;
+}
+
+/* 🌙 DARK THEME OVERRIDES */
+body.dark-theme .support-container {
+  background: #1e1e1e;
+  color: #eee;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-theme .support-title {
+  color: #90caf9;
+}
+
+body.dark-theme .support-footer {
+  color: #ccc;
+}
+
+body.dark-theme .support-footer a {
+  color: #90caf9;
+}
+
+body.dark-theme .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: #2b2b2b;
+}
+
+body.dark-theme .mat-input-element {
+  color: #fff;
+}
+
+body.dark-theme .mat-form-field-label {
+  color: #aaa !important;
+}

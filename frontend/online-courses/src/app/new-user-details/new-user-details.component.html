@@ -1,0 +1,66 @@
+<div class="register-container">
+  <h2>Register</h2>
+
+  <form #registerForm="ngForm" (ngSubmit)="onSubmit(registerForm)" class="register-form" novalidate>
+
+    <!-- First Name -->
+    <input type="text" name="firstName" [(ngModel)]="firstName" placeholder="First Name" required class="input-field" #firstNameField="ngModel" />
+    <div class="error-text" *ngIf="firstNameField.invalid && firstNameField.touched">
+      First name is required.
+    </div>
+
+    <!-- Last Name -->
+    <input type="text" name="lastName" [(ngModel)]="lastName" placeholder="Last Name" required class="input-field" #lastNameField="ngModel" />
+    <div class="error-text" *ngIf="lastNameField.invalid && lastNameField.touched">
+      Last name is required.
+    </div>
+
+    <!-- Email -->
+    <input type="email" name="email" [(ngModel)]="email" placeholder="Email" required email class="input-field" #emailField="ngModel" />
+    <div class="error-text" *ngIf="emailField.invalid && emailField.touched">
+      Enter a valid email address.
+    </div>
+
+    <button type="button" class="otp-btn" (click)="sendOtp()">Send OTP</button>
+
+    <!-- Phone -->
+    <input type="tel" name="phone" [(ngModel)]="phone" placeholder="Phone" required pattern="^[0-9]{10}$" class="input-field" #phoneField="ngModel" />
+    <div class="error-text" *ngIf="phoneField.invalid && phoneField.touched">
+      Phone must be a valid 10-digit number.
+    </div>
+
+    <!-- Password -->
+    <input type="password" name="password" [(ngModel)]="password" placeholder="Password" required pattern="^(?=.*[!@#$%^&*-=_+])[A-Za-z\!@#$%^&*-=_+]{8,}$" class="input-field" #passwordField="ngModel" />
+    <div class="error-text" *ngIf="passwordField.invalid && passwordField.touched">
+      Password must be at least 8 characters and include a special character.
+    </div>
+
+    <!-- Role -->
+    <select name="role" [(ngModel)]="role" required class="input-field" #roleField="ngModel">
+      <option value="" disabled selected>Select Role</option>
+      <option *ngFor="let r of roles" [value]="r.id">{{ r.name }}</option>
+    </select>
+    <div class="error-text" *ngIf="roleField.invalid && roleField.touched">
+      Please select a role.
+    </div>
+
+   <div *ngIf="otpSent" class="otp-row">
+  <input type="text" name="otp" [(ngModel)]="otp" placeholder="Enter OTP" required class="input-field otp-input" />
+  <button type="button" (click)="sendOtp()" [disabled]="!canResend" class="otp-btn">
+    {{ canResend ? 'Resend OTP' : 'Resend in ' + resendCooldown + 's' }}
+  </button>
+</div>
+
+
+<div class="error-text" *ngIf="otpSent && otp.trim().length === 0">
+  Please enter the OTP sent to your email to complete registration.
+</div>
+
+    <!-- Submit -->
+    <button type="submit" [disabled]="registerForm.invalid || isOtpRequired()" class="register-btn">Register</button>
+
+    <p class="switch-auth">
+      Already have an account? <a routerLink="/login">Login</a>
+    </p>
+  </form>
+</div>

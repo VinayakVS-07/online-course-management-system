@@ -1,0 +1,124 @@
+<div class="chat-container">
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+
+    <!-- Chat List -->
+   <div class="chat-users-list">
+  <ul>
+    <li 
+      *ngFor="let u of chatUsers"
+      (click)="selectUser(u)"
+      [class.selected]="
+        (u.userID && selectedReceiver?.userID && selectedReceiver?.userID === u.userID) ||
+        (u.groupID && selectedReceiver?.groupID && selectedReceiver?.groupID === u.groupID)
+      "
+      [class.unread]="u.unreadCount > 0"
+    >
+      <div class="user-item">
+        <mat-icon class="role-icon"
+          [ngClass]="{
+            'instructor': u.roleName?.toLowerCase() === 'instructor',
+            'student': u.roleName?.toLowerCase() === 'student',
+            'group': u.roleName?.toLowerCase() === 'group'
+          }">
+          {{
+            u.roleName?.toLowerCase() === 'group' 
+              ? 'groups' 
+              : (u.roleName?.toLowerCase() === 'instructor' ? 'school' : 'person')
+          }}
+        </mat-icon>
+
+        <div class="user-name">
+          {{ u.groupID ? u.groupName : (u.firstName + ' ' + u.lastName) }}
+        </div>
+
+        <span class="unread-badge" *ngIf="u.unreadCount > 0">
+          {{ u.unreadCount }}
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+
+
+   <!-- Start New Chat Section -->
+<div class="start-chat">
+  <button class="start-chat-btn" (click)="toggleDropUp = !toggleDropUp">
+    + Start New Chat
+  </button>
+
+  <!-- Drop-up Options -->
+  <div class="dropup-menu" *ngIf="toggleDropUp">
+    <button class="menu-item" (click)="openNewChatDialog()">
+      🗨️ Start Individual Chat
+    </button>
+    <button class="menu-item" (click)="openGroupChat()">
+      👥 New Group Chat
+    </button>
+  </div>
+</div>
+
+
+  </div>
+
+  <!-- CHAT WINDOW -->
+  <div class="chat-window" *ngIf="selectedReceiver">
+
+    <div class="chat-header">
+  <div class="chat-header-content">
+    <mat-icon class="profile-icon">account_circle</mat-icon>
+    <span class="chat-username">
+      {{ selectedReceiver.groupID ? selectedReceiver.groupName : selectedReceiver.firstName + ' ' + selectedReceiver.lastName }}
+    </span>
+  </div>
+</div>
+
+
+    <div class="chat-messages" #chatContainer>
+      <div 
+  *ngFor="let msg of messages" 
+  class="message"
+  [ngClass]="{
+    'sent': msg.senderID === user.userID && !isSystemMessage(msg),
+    'received': msg.senderID !== user.userID && !isSystemMessage(msg),
+    'system': isSystemMessage(msg)
+  }"
+>
+  <div class="bubble">
+    <!-- System message -->
+    <ng-container *ngIf="isSystemMessage(msg); else normalMsg">
+      <em class="system-text">{{ msg.message }}</em>
+    </ng-container>
+
+    <!-- Normal message -->
+    <ng-template #normalMsg>
+      <strong *ngIf="msg.senderID !== user.userID">{{ msg.senderName }}:</strong>
+      {{ msg.message }}
+      <div class="timestamp">{{ msg.sentAt | date: 'short' }}</div>
+    </ng-template>
+  </div>
+</div>
+
+    </div>
+
+    <div class="message-box">
+      <input 
+        [(ngModel)]="newMessage" 
+        placeholder="Type a message..." 
+        (keydown.enter)="sendMessage()" 
+      />
+      <button 
+        *ngIf="newMessage?.trim()" 
+        (click)="sendMessage()" 
+        class="send-btn"
+      >
+        <mat-icon>send</mat-icon>
+      </button>
+    </div>
+  </div>
+
+  <!-- NO CHAT SELECTED -->
+  <div class="chat-placeholder" *ngIf="!selectedReceiver">
+    <p>Select a user to start a conversation</p>
+  </div>
+</div>

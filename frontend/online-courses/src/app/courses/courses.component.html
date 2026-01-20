@@ -1,0 +1,145 @@
+
+<mat-card class="table-card">
+ 
+  <!-- Search Bar + Create Button -->
+  <div class="top-bar">
+    <mat-form-field appearance="outline" class="search-bar">
+      <mat-icon matPrefix>search</mat-icon>
+      <input matInput placeholder="Search Courses" [(ngModel)]="searchTerm" (keyup)="onSearch()" />
+      <button *ngIf="searchTerm" matSuffix mat-icon-button (click)="clearSearch()">
+      <mat-icon>close</mat-icon>
+    </button>
+
+    </mat-form-field>
+
+   <div *ngIf="userRole === 'instructor'" class="create-button-wrapper">
+  <button 
+     mat-flat-button color="primary"(click)="createCourse()">+ Create Course
+  </button>
+   </div>
+  </div>
+
+  <!-- Table -->
+  <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z2 full-width-table">
+
+    <!-- Title -->
+    <ng-container matColumnDef="title">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Title </th>
+      <td mat-cell *matCellDef="let course"> {{ course.title }} </td>
+    </ng-container>
+
+    <!-- Category -->
+    <ng-container matColumnDef="categoryName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Category </th>
+      <td mat-cell *matCellDef="let course"> {{ course.categoryName }} </td>
+    </ng-container>
+
+    <!-- Enrolled Students -->
+<ng-container *ngIf="userRole === 'instructor' || userRole === 'admin'" matColumnDef="enrolledCount">
+  <th mat-header-cell *matHeaderCellDef mat-sort-header> Enrolled </th>
+  <td mat-cell *matCellDef="let course"> {{ course.enrolledCount }} </td>
+</ng-container>
+
+
+    <!-- Instructor -->
+    <ng-container matColumnDef="instructorName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Instructor </th>
+      <td mat-cell *matCellDef="let course"> {{ course.instructorName }} </td>
+    </ng-container>
+
+    <!-- Status -->
+    <ng-container matColumnDef="status">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Status </th>
+      <td mat-cell *matCellDef="let course"> {{ course.status }} </td>
+    </ng-container>
+
+    <!-- Price -->
+    <ng-container matColumnDef="price">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Price </th>
+      <td mat-cell *matCellDef="let course"> ₹{{ course.price }} </td>
+    </ng-container>
+
+    <!-- Enroll Action for Students -->
+<ng-container matColumnDef="enroll">
+  <th mat-header-cell *matHeaderCellDef> Enroll </th>
+  <td mat-cell *matCellDef="let course">
+    <button 
+      mat-stroked-button 
+      color="primary" 
+       *ngIf="userRole === 'student'" (click)="confirmAndPay(course)">
+      Enroll
+    </button>
+  </td>
+</ng-container>
+
+
+    <!-- Actions -->
+     <ng-container>
+    <ng-container matColumnDef="actions">
+      <th mat-header-cell *matHeaderCellDef > Actions </th>
+      <td mat-cell *matCellDef="let course">
+         <div class="action-buttons">
+        <button mat-icon-button color="primary" *ngIf="userRole === 'instructor'"  (click)="editCourse(course.courseID)" matTooltip="Edit" matTooltipPosition="above">
+          <mat-icon>edit</mat-icon>
+        </button>
+
+          <button mat-icon-button 
+              [color]="course.status === 'Active' ? 'warn' : 'accent'" 
+              *ngIf="userRole === 'instructor' || userRole === 'admin'"
+              (click)="toggleCourseStatus(course)" 
+              [matTooltip]="course.status === 'Active' ? 'Deactivate' : 'Reactivate'" 
+              matTooltipPosition="above">
+        <mat-icon>{{ course.status === 'Active' ? 'block' : 'check_circle' }}</mat-icon>
+      </button>
+
+       <button mat-icon-button color="accent"
+              *ngIf="userRole === 'instructor'"
+              (click)="viewEnrollments(course.courseID)"
+              matTooltip="View Enrolled Students" matTooltipPosition="above">
+        <mat-icon>group</mat-icon>
+      </button>
+      
+<button mat-icon-button color="primary"
+        *ngIf="userRole === 'admin'"
+        (click)="viewPayments(course.courseID)"
+        matTooltip="View Payments"
+        matTooltipPosition="above">
+  <mat-icon>payments</mat-icon>
+</button>
+
+<!-- View Reviews Button -->
+<button mat-icon-button color="primary"
+        (click)="viewReviews(course.courseID)"
+        matTooltip="View Course Reviews"
+        matTooltipPosition="above">
+  <mat-icon>reviews</mat-icon>
+</button>
+
+         </div>
+      </td>
+    </ng-container>
+    </ng-container>
+
+
+
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <!-- Paginator -->
+  <mat-paginator
+    [length]="totalCount"
+    [pageSize]="filter.pageSize"
+     [pageIndex]="filter.page - 1"
+    [pageSizeOptions]="[5, 10, 25]"
+    (page)="onPageChange($event)"
+    showFirstLastButtons>
+  </mat-paginator>
+</mat-card>
+
+
+
+
+
+

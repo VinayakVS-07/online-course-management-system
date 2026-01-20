@@ -1,0 +1,24 @@
+<mat-card class="review-container">
+  <h2 class="title">Course Reviews</h2>
+
+  <div *ngIf="reviews && reviews.length > 0; else noReviews">
+    <div *ngFor="let r of reviews" class="review-card mat-elevation-z2">
+      <div class="review-header">
+        <div class="review-name">{{ r.studentName }}</div>
+        <div class="review-rating">
+          <mat-icon *ngFor="let s of [1,2,3,4,5]">
+            {{ s <= r.rating ? 'star' : 'star_border' }}
+          </mat-icon>
+        </div>
+      </div>
+
+      <p class="review-text" *ngIf="r.reviewText">{{ r.reviewText }}</p>
+
+      <div class="review-footer">{{ r.reviewDate | date:'mediumDate' }}</div>
+    </div>
+  </div>
+
+  <ng-template #noReviews>
+    <p class="no-review-text">No reviews available for this course.</p>
+  </ng-template>
+</mat-card>

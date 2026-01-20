@@ -1,0 +1,101 @@
+.register-container {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0.2, 0.2, 0.2, 0.3);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.input-field,
+.register-form select {
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+
+
+button[disabled] {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: -0.25rem;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.register-btn {
+  width: 150px;
+  align-self: center;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  margin-top: 1rem;
+  border: none;
+ 
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  
+  background-color: #007bff;
+}
+
+.otp-btn {
+  margin-inline-end: auto;
+  padding-block-end: 0%;
+  font-size: 0.7rem;
+ 
+}
+
+
+.switch-auth {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.switch-auth a {
+  margin-left: 0.5rem;
+  background: transparent;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+.switch-auth a:hover {
+  text-decoration: underline;
+}
+
+
+
+.otp-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.otp-input {
+  flex: 5;
+}
+
+.otp-btn {
+  flex: 1.15;
+}

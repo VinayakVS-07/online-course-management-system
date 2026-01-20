@@ -1,0 +1,22 @@
+.submission-card {
+  margin: 25px auto;
+  max-width: 1000px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+table a {
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+table th {
+  background-color: #94c6f7;
+  border-radius: 8px;
+  text-decoration: underline;
+}

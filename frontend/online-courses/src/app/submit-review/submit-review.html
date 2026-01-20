@@ -1,0 +1,23 @@
+<mat-card class="form-card">
+  <h2>Rate and Review Course</h2>
+
+  <form [formGroup]="reviewForm" (ngSubmit)="onSubmit()">
+
+    <mat-label class="rating-label">Your Rating</mat-label>
+    <div class="rating-stars">
+      <mat-icon *ngFor="let star of stars; let i = index" (click)="setRating(i + 1)"
+        [ngClass]="{ filled: i < reviewForm.get('rating')?.value }">{{ i < reviewForm.get('rating')?.value ? 'star'
+          : 'star_border' }}</mat-icon>
+    </div>
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Review (optional)</mat-label>
+      <textarea matInput rows="3" formControlName="reviewText"></textarea>
+    </mat-form-field>
+
+    <button mat-flat-button color="primary" type="submit" [disabled]="reviewForm.invalid">
+      Submit Review
+    </button>
+    <button mat-button routerLink="/my-enrollments">Cancel</button>
+  </form>
+</mat-card>

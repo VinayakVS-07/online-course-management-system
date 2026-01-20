@@ -1,0 +1,95 @@
+<div class="checkout-container">
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    Courses > {{ course.title }} > Payment
+  </div>
+
+  <!-- Scrollable Content -->
+  <div class="checkout-content">
+    <!-- Course Summary -->
+    <div class="course-box">
+      <h2>{{ course.title }}</h2>
+      <p class="subtitle">{{ course.categoryName }}</p>
+      <div class="instructor-box">
+       <p> <span><strong>Instructor:</strong> {{ course.instructorName }}</span></p>
+       <p> <span><strong>Duration:</strong> {{ course.duration }}</span> </p>
+       <p> <span><strong>Description:</strong> {{ course.description }}</span> </p>
+      </div>
+    </div>
+<!-- Order Summary -->
+      <div class="order-summary">
+        <h3>Order Summary</h3>
+        <p>{{ course.title }} <span>₹{{ course.price }}</span></p>
+        <hr />
+        <p class="total">Total <span>₹{{ course.price }}</span></p>
+      </div>
+
+      
+    <!-- Grid Layout -->
+    <div class="content-grid">
+      <!-- Payment Form -->
+      <form [formGroup]="form" class="payment-form">
+        <h3>Payment Method</h3>
+
+        <mat-radio-group formControlName="paymentMethod" class="method-options">
+          <mat-radio-button value="CARD">Card</mat-radio-button>
+          <mat-radio-button value="UPI">UPI</mat-radio-button>
+          <mat-radio-button value="PAYPAL">PayPal</mat-radio-button>
+        </mat-radio-group>
+
+        <!-- Card Fields -->
+        <div *ngIf="form.value.paymentMethod === 'CARD'" class="card-section">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Card Number</mat-label>
+            <input matInput formControlName="cardNumber" placeholder="0000 0000 0000 0000" />
+          </mat-form-field>
+
+          <div class="row">
+            <mat-form-field appearance="outline" class="half-width">
+              <mat-label>MM</mat-label>
+              <input matInput type="number" formControlName="expiryMonth" />
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="half-width">
+              <mat-label>YY</mat-label>
+              <input matInput type="number" formControlName="expiryYear" />
+            </mat-form-field>
+
+            <mat-form-field appearance="outline" class="half-width">
+              <mat-label>CVV</mat-label>
+              <input matInput type="password" formControlName="cvv" />
+            </mat-form-field>
+          </div>
+
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Name on Card</mat-label>
+            <input matInput formControlName="nameOnCard" />
+          </mat-form-field>
+        </div>
+
+        <!-- UPI -->
+        <div *ngIf="form.value.paymentMethod === 'UPI'">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>UPI ID</mat-label>
+            <input matInput formControlName="upiId" placeholder="yourname@upi" />
+          </mat-form-field>
+        </div>
+
+        <!-- PayPal -->
+        <div *ngIf="form.value.paymentMethod === 'PAYPAL'">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>PayPal Email</mat-label>
+            <input matInput formControlName="paypalEmail" placeholder="email@example.com" />
+          </mat-form-field>
+        </div>
+
+        <!-- Pay Now -->
+        <button mat-flat-button color="primary" class="pay-btn" (click)="payNow()" [disabled]="loading">
+          {{ loading ? 'Processing...' : 'Pay & Enroll' }}
+        </button>
+      <button mat-button mat-dialog-close class="cancel-btn">Cancel</button>
+      </form>
+    </div>
+  </div>
+
+</div>

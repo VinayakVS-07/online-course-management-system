@@ -1,0 +1,107 @@
+<mat-card class="form-card">
+  <h2>{{ isEditMode ? 'Edit' : 'Create' }} Course</h2>
+
+  <form [formGroup]="courseForm" (ngSubmit)="onSubmit()">
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Title</mat-label>
+      <input matInput formControlName="title" />
+    </mat-form-field>
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Description</mat-label>
+      <textarea matInput rows="3" formControlName="description"></textarea>
+    </mat-form-field>
+
+ <!-- Category Selection Toggle -->
+<div class="category-toggle">
+  <label>Category</label>
+  <mat-radio-group formControlName="categoryOption">
+    <mat-radio-button value="existing">Select Existing</mat-radio-button>
+    <mat-radio-button value="new">Add New</mat-radio-button>
+  </mat-radio-group>
+</div>
+
+<!-- Existing Category Dropdown -->
+<div *ngIf="courseForm.get('categoryOption')?.value === 'existing'" class="form-field">
+  <mat-form-field class="full-width" appearance="outline">
+    <mat-label>Choose Category</mat-label>
+    <mat-select formControlName="categoryID">
+      <mat-option *ngFor="let category of categories" [value]="category.categoryID">
+        {{ category.name }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+</div>
+
+<!-- New Category Input -->
+<div *ngIf="courseForm.get('categoryOption')?.value === 'new'" class="form-field">
+  <mat-form-field class="full-width" appearance="outline">
+    <mat-label>New Category Name</mat-label>
+    <input matInput formControlName="newCategoryName" />
+  </mat-form-field>
+</div>
+
+
+   <mat-form-field class="full-width" appearance="outline">
+    <mat-label>Select Instructor</mat-label>
+     <mat-select formControlName="userID">
+      <mat-option *ngFor="let instructor of instructors" [value]="instructor.userID">
+      {{ instructor.instructorName }}
+      </mat-option>
+     </mat-select>
+   </mat-form-field>
+
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Duration</mat-label>
+      <input matInput formControlName="duration" />
+    </mat-form-field>
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Price</mat-label>
+      <input matInput type="number" formControlName="price" />
+    </mat-form-field>
+    <div *ngIf="courseForm.get('price')?.hasError('min') && courseForm.get('price')?.touched" class="error">
+       Price must be a positive number.
+    </div>
+
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Status</mat-label>
+      <mat-select formControlName="status">
+        <mat-option value="active">Active</mat-option>
+        <mat-option value="inactive">Inactive</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Start Date</mat-label>
+      <input matInput [matDatepicker]="startPicker" formControlName="startDate" />
+      <mat-datepicker-toggle matSuffix [for]="startPicker"></mat-datepicker-toggle>
+      <mat-datepicker #startPicker></mat-datepicker>
+    </mat-form-field>
+    <div *ngIf="courseForm.hasError('startDatePast') && courseForm.touched" class="error">
+       Start date cannot be in the past.
+    </div>
+
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>End Date</mat-label>
+      <input matInput [matDatepicker]="endPicker" formControlName="endDate" />
+      <mat-datepicker-toggle matSuffix [for]="endPicker"></mat-datepicker-toggle>
+      <mat-datepicker #endPicker></mat-datepicker>
+    </mat-form-field>
+   <div *ngIf="courseForm.hasError('dateInvalid') && courseForm.touched" class="error">
+       End date cannot be earlier than the start date.
+   </div>
+
+
+
+    <div class="actions">
+      <button mat-flat-button color="primary" type="submit" [disabled]="courseForm.invalid">
+        {{ isEditMode ? 'Update' : 'Create' }}
+      </button>
+      <button mat-button type="button" routerLink="/courses">Cancel</button>
+    </div>
+  </form>
+</mat-card>

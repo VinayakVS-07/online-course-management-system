@@ -1,0 +1,357 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* ========== DARK THEME OVERRIDES ========== */
+body.dark-theme {
+  background-color: #1c1c1c;
+  color: #e0e0e0;
+}
+
+/* Sidebar */
+body.dark-theme .app-sidenav {
+  background-color: #263238;
+  color: #e0e0e0;
+}
+
+/* Main Content */
+body.dark-theme .app-content {
+  background-color: #1c1c1c;
+  color: #f5f5f5;
+}
+
+/* Card */
+body.dark-theme .table-card {
+  background-color: #2a2a2a !important;
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* Table */
+body.dark-theme .mat-elevation-z2 {
+  background-color: #2f2f2f !important;
+  color: #f0f0f0;
+  border-bottom: 1px solid #444;
+}
+
+body.dark-theme table th {
+  background-color: #304f50;
+  color: #292525;
+  text-decoration: underline;
+}
+
+body.dark-theme table td {
+
+  color: #f5f5f5;
+ 
+}
+
+body.dark-theme mat-header-cell,
+body.dark-theme mat-cell {
+  color: #f5f5f5;
+}
+
+body.dark-theme mat-row:hover {
+  background-color: #373737;
+  color: #fff;
+}
+
+/* Search Bar */
+body.dark-theme .search-bar .mat-form-field-flex {
+  background-color: #3a3a3a !important;
+  color: #fff;
+}
+
+body.dark-theme input.mat-input-element {
+  color: #fff;
+}
+
+/* Buttons */
+body.dark-theme .mat-flat-button,
+body.dark-theme .mat-icon-button,
+body.dark-theme .mat-stroked-button {
+  color: #fbc02d !important;
+  border-color: #fbc02d !important;
+}
+
+body.dark-theme .mat-flat-button {
+  background-color: #424242 !important;
+  color: #fff;
+}
+
+/* Icons */
+body.dark-theme .mat-icon {
+  color: #fbc02d !important;
+}
+
+/* Paginator */
+body.dark-theme mat-paginator {
+  background-color: #2a2a2a !important;
+  color: #f5f5f5;
+}
+
+body.dark-theme ::placeholder {
+  color: #eee !important;
+  opacity: 1; /* Ensures it's fully visible */
+}
+
+body.dark-theme input.mat-input-element {
+  color: #fff;
+}
+
+
+/* Make mat-label white in dark mode */
+body.dark-theme .mat-form-field-label {
+  color: #fff !important;
+}
+
+
+/* Sort Arrow */
+body.dark-theme .mat-sort-header-arrow {
+  color: #302929;
+}
+
+/* ============================
+   DARK MODE — Chat Page
+============================ */
+body.dark-theme .chat-container {
+  background: #1c1c1c;
+  color: #e0e0e0;
+  border-color: #444;
+}
+
+/* Sidebar */
+body.dark-theme .sidebar {
+  background-color: #2a2a2a;
+  border-right: 1px solid #444;
+  color: #fff;
+}
+
+body.dark-theme .sidebar li {
+  color: #fff;
+}
+
+body.dark-theme .sidebar li:hover {
+  background-color: #3a3a3a;
+}
+
+body.dark-theme .sidebar li.selected {
+  background-color: #1976d2;
+  color: #fff;
+}
+
+body.dark-theme .unread-badge {
+  background-color: #e53935;
+  color: #fff;
+}
+
+body.dark-theme .role-icon {
+  color: #fbc02d !important;
+}
+
+/* Drop-up Menu */
+body.dark-theme .dropup-menu {
+  background-color: #2f2f2f;
+  border-color: #555;
+}
+
+body.dark-theme .menu-item {
+  color: #eee;
+}
+
+body.dark-theme .menu-item:hover {
+  background-color: #424242;
+}
+
+/* Chat Window */
+body.dark-theme .chat-window {
+  background-color: #1e1e1e;
+}
+
+body.dark-theme .chat-header {
+  background-color: #263238;
+  border-bottom: 1px solid #444;
+}
+
+body.dark-theme .chat-username {
+  color: #f5f5f5;
+}
+
+body.dark-theme .profile-icon {
+  color: #fbc02d;
+}
+
+/* Messages */
+body.dark-theme .chat-messages {
+  background-color: #1e1e1e;
+}
+
+body.dark-theme .bubble {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body.dark-theme .message.sent .bubble {
+  background-color: #388e3c;
+  color: #0e0c0c;
+}
+
+body.dark-theme .message.received .bubble {
+  background-color: #3e3e3e;
+}
+
+body.dark-theme .system-text {
+  background-color: #424242;
+  color: #ccc;
+}
+
+body.dark-theme .timestamp {
+  color: #999;
+}
+
+/* Message Box */
+body.dark-theme .message-box {
+  background-color: #2a2a2a;
+  border-top: 1px solid #444;
+}
+
+body.dark-theme .message-box input {
+  background-color: #3a3a3a;
+  color: #727ff3;
+  border-color: #555;
+}
+
+body.dark-theme .send-btn {
+  background-color: #0288d1;
+}
+
+body.dark-theme .send-btn:hover {
+  background-color: #0277bd;
+}
+
+/* Placeholder */
+body.dark-theme .chat-placeholder {
+  color: #aaa;
+}
+
+
+/* === Dark Mode for Course Form Page === */
+body.dark-theme .form-card {
+  background-color: #1f1f1f;
+  color: #eee;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* mat-labels and inputs */
+body.dark-theme .form-card mat-form-field {
+  background-color: transparent;
+  color: #fff;
+}
+
+body.dark-theme .form-card mat-label,
+body.dark-theme .form-card input,
+body.dark-theme .form-card textarea,
+body.dark-theme .form-card .mat-select-value {
+  color: #fff !important;
+}
+
+body.dark-theme .form-card .mat-icon {
+  color: #fbc02d;
+}
+
+body.dark-theme .form-card .mat-form-field-outline {
+  color: #888;
+}
+
+body.dark-theme .form-card .mat-datepicker-toggle-default-icon {
+  filter: brightness(0.8);
+}
+
+/* Radio button label */
+body.dark-theme .form-card .category-toggle label {
+  color: #ccc;
+}
+
+/* Error message */
+body.dark-theme .form-card .error {
+  color: #ff6b6b;
+}
+
+/* Buttons */
+body.dark-theme .form-card .mat-flat-button,
+body.dark-theme .form-card .mat-button {
+  color: #fff;
+}
+
+body.dark-theme .approve-instructors-btn {
+  background-color: #292525;
+  color: #fff;
+}
+
+/* === Dark Mode for Admin Dashboard === */
+
+body.dark-theme .mat-dialog-container {
+   background-color: #292525;
+  color: #fff;
+}
+
+body.dark-theme .table-card {
+  background-color: #424242;
+  color: #ccc;
+}
+
+body.dark-theme .chart-card {
+  background-color: #141538;
+  color: #ccc;
+}
+
+body.dark-theme .kpi-grid {
+  background-color: #0d0e18;
+  color: #ccc;
+}
+
+
+body.dark-theme .kpi-card {
+  background-color: #151420;
+  color: #ccc;
+}
+
+body.dark-theme .kpi-value {
+  color: #fafbfc;
+}
+
+body.dark-theme .dashboard-root {
+  background: linear-gradient(135deg, #0e161d, #061727);
+}
+
+body.dark-theme .chat-body  {
+  background-color: #1e1e22; 
+}
+
+
+body.dark-theme .chat-footer  {
+  background-color: #1e1e22;
+}
+
+/* === Dark Mode for Student Dashboard === */
+
+body.dark-theme .dashboard-container {
+  background: linear-gradient(135deg, #0e161d, #061727);
+}
+
+body.dark-theme .stat-card {
+  background-color: #1e1e22; 
+}
+
+body.dark-theme .table-section {
+  color: #f3f3f5; 
+  background-color: #1e1e22; 
+}
+
+body.dark-theme h2 {
+  color: #90caf9;
+}
+
+
+

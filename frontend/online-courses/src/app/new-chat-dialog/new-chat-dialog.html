@@ -1,0 +1,26 @@
+<div class="dialog-container">
+  <h2>Start New Chat</h2>
+
+  <div class="form-group">
+    <label>Select Role:</label>
+    <select [(ngModel)]="selectedRole" (change)="onRoleChange()">
+      <option value="">-- Choose Role --</option>
+      <option value="Student">Student</option>
+      <option value="Instructor">Instructor</option>
+    </select>
+  </div>
+
+  <div class="form-group" *ngIf="users.length > 0">
+    <label>Select User:</label>
+    <select [(ngModel)]="selectedUserId">
+      <option *ngFor="let u of users" [value]="u.userID">
+        {{ u.firstName }} {{ u.lastName }}
+      </option>
+    </select>
+  </div>
+
+  <div class="action-buttons" *ngIf="users.length > 0">
+    <button class="start-button" (click)="startChat()">Start Chat</button>
+    <button class="cancel-button" (click)="closeDialog()">Cancel</button>
+  </div>
+</div>

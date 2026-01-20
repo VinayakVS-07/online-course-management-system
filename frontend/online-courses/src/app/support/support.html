@@ -1,0 +1,41 @@
+<div class="support-container">
+  <h2 class="support-title">
+    Need Help? Contact Support
+  </h2>
+
+  <form [formGroup]="supportForm" (ngSubmit)="onSubmit()" class="support-form">
+    <mat-form-field appearance="fill">
+      <mat-label>Subject</mat-label>
+      <input matInput formControlName="subject" placeholder="Enter issue subject">
+      <mat-error *ngIf="supportForm.get('subject')?.invalid && supportForm.get('subject')?.touched">
+        Subject is required.
+      </mat-error>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Message</mat-label>
+      <textarea matInput formControlName="message" placeholder="Describe your issue"></textarea>
+      <mat-error *ngIf="supportForm.get('message')?.invalid && supportForm.get('message')?.touched">
+        Message must be at least 10 characters.
+      </mat-error>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit" [disabled]="supportForm.invalid || loading">
+      {{ loading ? 'Submitting...' : 'Submit' }}
+    </button>
+
+    <div *ngIf="submitted && successMessage" class="success-message">
+      {{ successMessage }}
+    </div>
+    <div *ngIf="errorMessage" class="error-message">
+      {{ errorMessage }}
+    </div>
+  </form>
+
+  <div class="support-footer">
+    <p>
+      For urgent issues, you can also contact us at:
+      <a href="mailto:onlinecourse.management07@gmail.com">onlinecourse.management07&#64;gmail.com</a>
+    </p>
+  </div>
+</div>

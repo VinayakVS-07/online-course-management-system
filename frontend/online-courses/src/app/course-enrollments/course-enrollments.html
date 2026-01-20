@@ -1,0 +1,40 @@
+<mat-card>
+  <h2>Enrolled Students</h2>
+
+  <table mat-table [dataSource]="enrolledStudents" class="mat-elevation-z2 full-width-table">
+
+    <!-- Student Name -->
+    <ng-container matColumnDef="studentName">
+      <th mat-header-cell *matHeaderCellDef> Student </th>
+      <td mat-cell *matCellDef="let s"> {{ s.studentName }} </td>
+    </ng-container>
+
+    <!-- Email -->
+    <ng-container matColumnDef="email">
+      <th mat-header-cell *matHeaderCellDef> Email </th>
+      <td mat-cell *matCellDef="let s"> {{ s.email }} </td>
+    </ng-container>
+
+    <!-- Phone -->
+    <ng-container matColumnDef="phone">
+      <th mat-header-cell *matHeaderCellDef> Phone </th>
+      <td mat-cell *matCellDef="let s"> {{ s.phone }} </td>
+    </ng-container>
+
+    <!-- Enrollment Date -->
+    <ng-container matColumnDef="enrollmentDate">
+      <th mat-header-cell *matHeaderCellDef> Enrolled On </th>
+      <td mat-cell *matCellDef="let s"> {{ s.enrollmentDate | date:'shortDate' }} </td>
+    </ng-container>
+
+    <!-- Status -->
+    <ng-container matColumnDef="status">
+      <th mat-header-cell *matHeaderCellDef> Status </th>
+      <td mat-cell *matCellDef="let s"> {{ s.status }} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="['studentName', 'email', 'phone', 'enrollmentDate', 'status']"></tr>
+    <tr mat-row *matRowDef="let row; columns: ['studentName', 'email', 'phone', 'enrollmentDate', 'status']"></tr>
+  </table>
+</mat-card>
+

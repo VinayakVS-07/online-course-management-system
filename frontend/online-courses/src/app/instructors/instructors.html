@@ -1,0 +1,58 @@
+<mat-card class="table-card">
+  
+  <mat-form-field appearance="outline" class="search-bar">
+  <mat-label>Search Instructors</mat-label><mat-icon matPrefix>search</mat-icon>
+  <input matInput [(ngModel)]="searchTerm" (keyup)="applySearch()" />
+  <button *ngIf="searchTerm" matSuffix mat-icon-button aria-label="Clear" (click)="clearSearch()">
+    <mat-icon>close</mat-icon>
+  </button>
+</mat-form-field>
+
+
+  <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z2 full-width-table">
+
+  
+
+    <ng-container matColumnDef="instructorName">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Name </th>
+      <td mat-cell *matCellDef="let instructor"> {{ instructor.instructorName }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="email">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Email </th>
+      <td mat-cell *matCellDef="let instructor"> {{ instructor.email }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="phone">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Phone </th>
+      <td mat-cell *matCellDef="let instructor"> {{ instructor.phone }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="registeredDate">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Registered </th>
+      <td mat-cell *matCellDef="let instructor"> {{ instructor.registeredDate | date }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="status">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Status </th>
+      <td mat-cell *matCellDef="let instructor">
+  <span [ngClass]="instructor.status === 'Available' ? 'status-available' : 'status-inactive'">
+    {{ instructor.status }}
+  </span>
+</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator
+    [length]="totalCount"
+    [pageSize]="filter.pageSize"
+    [pageSizeOptions]="[5, 10, 25]"
+    (page)="onPageChange($event)"
+    showFirstLastButtons>
+  </mat-paginator>
+</mat-card>
+
+

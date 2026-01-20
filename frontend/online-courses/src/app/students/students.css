@@ -1,0 +1,84 @@
+.table-card {
+  margin: 25px auto;
+  max-width: 1000px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.full-width-table {
+  width: 100%;
+}
+
+mat-header-cell, mat-cell {
+  padding: 8px 12px;
+  font-size: 13px;
+}
+
+mat-row:hover {
+  background-color: #f1f1f1;
+}
+
+mat-paginator {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.search-bar {
+  width: 350px;
+  height: 20;
+  margin-bottom: 14px;
+  margin-top: 5px;
+}
+
+mat-header-cell, mat-cell {
+  vertical-align: middle;
+}
+
+mat-icon {
+  font-size: 20px;
+}
+
+.badge {
+  background-color: #c6f0ee;
+  color: #06574d;
+  border-radius: 12px;
+  padding: 4px 8px;
+  margin-right: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.badge-empty {
+  background-color: #fce0e4;
+  color: #c62828;
+}
+
+.mat-sort-header-arrow {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.mat-header-cell:hover .mat-sort-header-arrow,
+.mat-sort-header-sorted .mat-sort-header-arrow {
+  opacity: 1;
+}
+
+
+.mat-elevation-z2 {
+    font-weight: 600;
+  font-size: 14px;
+  color: #2c3e50;
+  padding: 14px 16px;
+  border-bottom: 1px solid #dcdcdc;
+  background-color: #ebf3fc;
+  border-radius: 8px;
+  
+}
+
+table th {
+  background-color: #94c6f7;
+  border-radius: 8px;
+  text-decoration: underline;
+}

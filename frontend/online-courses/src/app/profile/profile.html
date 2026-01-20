@@ -1,0 +1,41 @@
+<mat-card class="profile-card"  *ngIf="profileForm">
+  <h2>User Profile</h2>
+
+  <form [formGroup]="profileForm" (ngSubmit)="updateProfile()">
+    <div class="profile-pic-container">
+      <img [src]="imagePreview || 'assets/avatar-placeholder.png'" alt="Profile Picture" class="profile-pic" />
+      <input type="file" (change)="onFileChange($event)" />
+    </div>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>First Name</mat-label>
+      <input matInput formControlName="firstName" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Last Name</mat-label>
+      <input matInput formControlName="lastName" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width">
+      <mat-label>Phone</mat-label>
+      <input matInput formControlName="phone" />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width" disabled>
+      <mat-label>Email</mat-label>
+      <input matInput [value]="profile?.email" disabled />
+    </mat-form-field>
+
+    <mat-form-field appearance="outline" class="full-width" disabled>
+      <mat-label>Registered</mat-label>
+      <input matInput [value]="profile?.registeredDate | date:'mediumDate'" disabled />
+    </mat-form-field>
+
+    <div class="actions">
+      <button mat-flat-button color="primary" type="submit">Save</button>
+       <button mat-stroked-button color="warn" type="button" (click)="openChangePasswordDialog()">Change Password</button>
+    </div>
+  </form>
+</mat-card>
+

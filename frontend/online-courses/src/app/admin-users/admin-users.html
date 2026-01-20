@@ -1,0 +1,103 @@
+<mat-card class="table-card">
+
+ <div class="filter-toolbar">
+  <mat-form-field appearance="outline" class="search-bar">
+    <mat-label>Search by Name or Email</mat-label>
+    <mat-icon matPrefix>search</mat-icon>
+    <input matInput [(ngModel)]="searchTerm" (keyup)="applySearch()" />
+    <button *ngIf="searchTerm" matSuffix mat-icon-button (click)="clearSearch()">
+      <mat-icon>close</mat-icon>
+    </button>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline" class="role-filter">
+    <mat-label>Filter by Role</mat-label>
+    <mat-select [(ngModel)]="roleFilter" (selectionChange)="onRoleFilterChange()">
+      <mat-option value="All">All</mat-option>
+      <mat-option value="Student">Student</mat-option>
+      <mat-option value="Instructor">Instructor</mat-option>
+      <mat-option value="Admin">Admin</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+ <!-- New Button for Pending Instructor Approval -->
+<div class="approve-instructors-container">
+  <button mat-raised-button 
+          color="primary" 
+          class="approve-instructors-btn" 
+          (click)="openApproveDialog()">
+    Approve Instructors
+  </button>
+</div>
+
+
+</div>
+
+  <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z2 full-width-table">
+
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Name</th>
+      <td mat-cell *matCellDef="let user"> {{ user.firstName }} {{ user.lastName }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="email">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Email</th>
+      <td mat-cell *matCellDef="let user"> {{ user.email }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="phone">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Phone</th>
+      <td mat-cell *matCellDef="let user"> {{ user.phone }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="role">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Role</th>
+      <td mat-cell *matCellDef="let user"> {{ user.roleName }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="registeredDate">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Registered</th>
+      <td mat-cell *matCellDef="let user"> {{ user.registeredDate | date }} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="status">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Status</th>
+      <td mat-cell *matCellDef="let user">
+        <span [ngClass]="user.status?.toLowerCase() === 'active' ? 'status-available' : 'status-inactive'">
+          {{ user.status }}
+        </span>
+      </td>
+    </ng-container>
+
+    <ng-container matColumnDef="action">
+  <th mat-header-cell *matHeaderCellDef> Action </th>
+  <td mat-cell *matCellDef="let user" >
+     <button mat-icon-button [matTooltip]="user.isActive ? 'Deactivate User' : 'Activate User'" (click)="toggleStatus(user)">
+      <mat-icon [ngClass]="user.isActive ? 'deactivate-icon' : 'activate-icon'">
+        {{ user.isActive ? 'block' : 'check_circle' }}
+      </mat-icon>
+    </button>
+
+ <button mat-icon-button
+        matTooltip="Change Role"
+        (click)="openChangeRoleDialog(user)">
+  <mat-icon>manage_accounts</mat-icon>
+</button>
+
+  </td>
+</ng-container>
+
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator
+    [length]="totalCount"
+    [pageSize]="filter.pageSize"
+    [pageSizeOptions]="[5, 10, 25]"
+    (page)="onPageChange($event)"
+    showFirstLastButtons>
+  </mat-paginator>
+  
+</mat-card>

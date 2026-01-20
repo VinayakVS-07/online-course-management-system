@@ -1,0 +1,55 @@
+<mat-card class="form-card">
+  <h2>{{ isEditMode ? 'Edit' : 'Create' }} Assignment</h2>
+
+  <form [formGroup]="assignmentForm" (ngSubmit)="onSubmit()">
+    <mat-form-field class="full-width" appearance="outline">
+  <mat-label>Select Course</mat-label>
+  <mat-select formControlName="courseID">
+    <mat-option *ngFor="let course of courses" [value]="course.courseID">
+      {{ course.title }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Title</mat-label>
+      <input matInput formControlName="title" />
+    </mat-form-field>
+
+    <mat-form-field class="full-width" appearance="outline">
+      <mat-label>Description</mat-label>
+      <textarea matInput rows="3" formControlName="description"></textarea>
+    </mat-form-field>
+
+    <mat-form-field class="full-width" appearance="outline">
+  <mat-label>Due Date</mat-label>
+  <input matInput [matDatepicker]="duePicker" formControlName="dueDate" />
+  <mat-datepicker-toggle matSuffix [for]="duePicker"></mat-datepicker-toggle>
+  <mat-datepicker #duePicker></mat-datepicker>
+</mat-form-field>
+
+<div *ngIf="assignmentForm.hasError('dueDatePast') && assignmentForm.touched" class="error">
+  Due date cannot be in the past.
+</div>
+    
+    <mat-label>Attach File (Optional)</mat-label>
+<input type="file" (change)="onFileSelected($event)" />
+
+<mat-divider>OR</mat-divider>
+
+<mat-form-field class="full-width" appearance="outline">
+  <mat-label>File URL</mat-label>
+  <input matInput formControlName="fileURL" />
+</mat-form-field>
+
+
+    <div class="actions">
+      <button mat-flat-button color="primary" type="submit"[disabled]="assignmentForm.invalid">
+        {{ isEditMode ? 'Update' : 'Create' }}
+      </button>
+      <button mat-button type="button" routerLink="/assignments">Cancel</button>
+    </div>
+  </form>
+</mat-card>
+

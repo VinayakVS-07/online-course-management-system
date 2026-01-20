@@ -1,0 +1,32 @@
+<h2>Create New Group Chat</h2>
+
+<label>Group Name:</label>
+<input [(ngModel)]="groupName" placeholder="Enter group name" />
+
+<h3>Students</h3>
+<div class="user-list">
+  <div 
+    *ngFor="let student of students" 
+    (click)="toggleSelection(student.userID)" 
+    [class.selected]="isSelected(student.userID)" 
+    class="user student">
+    {{ student.firstName }} {{ student.lastName }}
+  </div>
+</div>
+
+<h3>Instructors</h3>
+<div class="user-list">
+  <div 
+    *ngFor="let instructor of instructors" 
+    (click)="toggleSelection(instructor.userID)" 
+    [class.selected]="isSelected(instructor.userID)" 
+    class="user instructor">
+    {{ instructor.firstName }} {{ instructor.lastName }}
+  </div>
+</div>
+
+<div class="actions">
+  <button (click)="createGroupChat()">Create</button>
+  <button (click)="close()">Cancel</button>
+</div>
+
