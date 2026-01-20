@@ -1,0 +1,24 @@
+// --- Keyword Reference for Web API ---
+
+// async               → Enables asynchronous programming (non-blocking operations)
+// await               → Pauses method execution until async task completes
+// Task<T>             → Represents an async operation that returns a value
+// IActionResult       → Interface for controller responses (Ok, NotFound, BadRequest, etc.)
+// IEnumerable<T>      → Interface for a read-only collection you can loop through
+// List<T>             → Concrete collection that supports indexing and modification
+// IQueryable<T>       → Interface for building LINQ queries that execute against a DB
+// T[] (array)         → Fixed-length, fast structure for simple data
+// FromBody            → Binds parameter from the request body in Web API
+// HttpGet/Put/Post/Delete → HTTP method attributes to map actions to routes
+// ProducesResponseType → Helps Swagger show response types and status codes
+// ControllerBase      → Base class that provides helper methods for building HTTP responses
+// ApiController       → Enables model validation, routing conventions, etc.
+// Route               → Defines endpoint URL path for controllers or actions
+// Ok()                → Returns HTTP 200 with data
+// NotFound()          → Returns HTTP 404 if resource isn’t found
+// BadRequest()        → Returns HTTP 400 for client-side errors
+// StatusCode()        → Manually returns any HTTP status code (e.g. 500 for server errors)
+// Xml comments        → XML documentation (///) used to describe methods, shown in Swagger
+// Singleton           → Service registered once for the whole app lifetime
+// Scoped              → Service created once per request
+// Transient           → Service created each time it's requested

@@ -1,0 +1,4 @@
+   },
+   "ConnectionStrings": {
+       "DefaultConnection": "server=localhost; Database=Online Course Management System; Integrated Security=true;Encrypt=false"
+   },

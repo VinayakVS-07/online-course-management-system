@@ -1,0 +1,1029 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\dashboardpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\dashboardpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\repository\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:repository\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\instructorpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\instructorpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\repository\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:repository\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\admindashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\admindashboarddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\dashboardassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\dashboardassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\dashboardenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\dashboardenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\dashboardkpi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\dashboardkpi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:profiles\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\supportrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\supportrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\savecourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\savecourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\otpregisterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\otpregisterrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\emailotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\emailotprequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\emailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\emailotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\enrollmentemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\enrollmentemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\paymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\paymentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\service\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:service\\ijwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\assignmentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\assignmentview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\coursereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\coursereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\coursepaymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\coursepaymentdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\coursedropdownmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\coursedropdownmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\categorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\getinstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\getinstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\updateuserrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\updateuserrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\userwithrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\userwithrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\userfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\userfiltermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\paymentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\paymentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\instructorearnings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\instructorearnings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\assignmentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\assignmentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\getstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\getstudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\service\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:service\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\unreadcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\unreadcount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\groupreadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\groupreadrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\groupmessagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\groupmessagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\groupmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\groupmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\groupchatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\groupchatrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\chatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\chatuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\chatreadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\chatreadmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\userpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\userpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\coursesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\coursesresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\myenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\myenrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\studententrolled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\studententrolled.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\saveassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\saveassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\studentsubmissionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\studentsubmissionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\gradesubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\gradesubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\submissionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\submissionview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\submissioncreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\submissioncreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\models\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:models\\searchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|c:\\users\\vinayak.vs\\source\\repos\\onlinecourseapi\\onlinecourseapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D8812141-CDD8-4A7F-9A57-10B02129A832}|OnlineCourseApi.csproj|solutionrelative:onlinecourseapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstructorPayment.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\InstructorPayment.cs",
+              "RelativeDocumentMoniker": "Models\\InstructorPayment.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\InstructorPayment.cs",
+              "RelativeToolTip": "Models\\InstructorPayment.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T07:33:03.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardPayment.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\DashboardPayment.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardPayment.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\DashboardPayment.cs",
+              "RelativeToolTip": "Models\\DashboardPayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:54:21.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Repository\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\UsersRepository.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Repository\\UsersRepository.cs",
+              "RelativeToolTip": "Repository\\UsersRepository.cs",
+              "ViewState": "AgIAAH4DAAAAAAAAAAAAwH4DAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:09:45.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AgIAAI8FAAAAAAAAAAAqwIsFAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T08:10:44.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Repository\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Repository\\IUsersRepository.cs",
+              "RelativeToolTip": "Repository\\IUsersRepository.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswFEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:11:53.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminDashboardData.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\AdminDashboardData.cs",
+              "RelativeDocumentMoniker": "Models\\AdminDashboardData.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\AdminDashboardData.cs",
+              "RelativeToolTip": "Models\\AdminDashboardData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:56:10.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardAssignment.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\DashboardAssignment.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardAssignment.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\DashboardAssignment.cs",
+              "RelativeToolTip": "Models\\DashboardAssignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:55:16.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DashboardEnrollment.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\DashboardEnrollment.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardEnrollment.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\DashboardEnrollment.cs",
+              "RelativeToolTip": "Models\\DashboardEnrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:53:34.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardKPI.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\DashboardKPI.cs",
+              "RelativeDocumentMoniker": "Models\\DashboardKPI.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\DashboardKPI.cs",
+              "RelativeToolTip": "Models\\DashboardKPI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-11T11:52:45.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "Service\\EmailService.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Service\\EmailService.cs",
+              "RelativeToolTip": "Service\\EmailService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAUwE4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T10:55:13.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\Users.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Users.cs",
+              "RelativeToolTip": "Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T11:23:10.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-28T10:59:28.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAswKIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T15:34:51.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Profiles\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Profiles\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Profiles\\MappingProfile.cs",
+              "RelativeToolTip": "Profiles\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T06:23:51.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SupportRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SupportRequestDto.cs",
+              "RelativeDocumentMoniker": "Models\\SupportRequestDto.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SupportRequestDto.cs",
+              "RelativeToolTip": "Models\\SupportRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T08:00:20.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Models\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UserProfile.cs",
+              "RelativeToolTip": "Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T18:02:23.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SaveCourse.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SaveCourse.cs",
+              "RelativeDocumentMoniker": "Models\\SaveCourse.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SaveCourse.cs",
+              "RelativeToolTip": "Models\\SaveCourse.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T17:51:27.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OtpRegisterRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\OtpRegisterRequest.cs",
+              "RelativeDocumentMoniker": "Models\\OtpRegisterRequest.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\OtpRegisterRequest.cs",
+              "RelativeToolTip": "Models\\OtpRegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T07:06:41.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmailOtp.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\EmailOtp.cs",
+              "RelativeDocumentMoniker": "Models\\EmailOtp.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\EmailOtp.cs",
+              "RelativeToolTip": "Models\\EmailOtp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T07:04:22.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmailOtpRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\EmailOtpRequest.cs",
+              "RelativeDocumentMoniker": "Models\\EmailOtpRequest.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\EmailOtpRequest.cs",
+              "RelativeToolTip": "Models\\EmailOtpRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T06:46:05.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterUser.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\RegisterUser.cs",
+              "RelativeDocumentMoniker": "Models\\RegisterUser.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\RegisterUser.cs",
+              "RelativeToolTip": "Models\\RegisterUser.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T11:12:16.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EnrollmentEmailDto.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\EnrollmentEmailDto.cs",
+              "RelativeDocumentMoniker": "Models\\EnrollmentEmailDto.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\EnrollmentEmailDto.cs",
+              "RelativeToolTip": "Models\\EnrollmentEmailDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T10:32:50.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PaymentModel.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\PaymentModel.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentModel.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\PaymentModel.cs",
+              "RelativeToolTip": "Models\\PaymentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T09:16:51.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IJwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Service\\IJwtTokenService.cs",
+              "RelativeDocumentMoniker": "Service\\IJwtTokenService.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Service\\IJwtTokenService.cs",
+              "RelativeToolTip": "Service\\IJwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T14:08:56.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CourseReview.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\CourseReview.cs",
+              "RelativeDocumentMoniker": "Models\\CourseReview.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\CourseReview.cs",
+              "RelativeToolTip": "Models\\CourseReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T05:32:38.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CoursePaymentDetails.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\CoursePaymentDetails.cs",
+              "RelativeDocumentMoniker": "Models\\CoursePaymentDetails.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\CoursePaymentDetails.cs",
+              "RelativeToolTip": "Models\\CoursePaymentDetails.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T16:19:51.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AssignmentView.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\AssignmentView.cs",
+              "RelativeDocumentMoniker": "Models\\AssignmentView.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\AssignmentView.cs",
+              "RelativeToolTip": "Models\\AssignmentView.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T07:57:13.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CourseDropdownModel.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\CourseDropdownModel.cs",
+              "RelativeDocumentMoniker": "Models\\CourseDropdownModel.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\CourseDropdownModel.cs",
+              "RelativeToolTip": "Models\\CourseDropdownModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T06:12:51.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\CategoryModel.cs",
+              "RelativeDocumentMoniker": "Models\\CategoryModel.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\CategoryModel.cs",
+              "RelativeToolTip": "Models\\CategoryModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:55:22.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T11:09:45.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GetInstructor.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GetInstructor.cs",
+              "RelativeDocumentMoniker": "Models\\GetInstructor.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GetInstructor.cs",
+              "RelativeToolTip": "Models\\GetInstructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T10:39:03.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Courses.cs",
+              "RelativeDocumentMoniker": "Models\\Courses.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Courses.cs",
+              "RelativeToolTip": "Models\\Courses.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAQwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T08:41:01.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Roles.cs",
+              "RelativeDocumentMoniker": "Models\\Roles.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Roles.cs",
+              "RelativeToolTip": "Models\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T07:35:13.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UpdateUserRoleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UpdateUserRoleRequest.cs",
+              "RelativeDocumentMoniker": "Models\\UpdateUserRoleRequest.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UpdateUserRoleRequest.cs",
+              "RelativeToolTip": "Models\\UpdateUserRoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T07:01:11.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserWithRole.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UserWithRole.cs",
+              "RelativeDocumentMoniker": "Models\\UserWithRole.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UserWithRole.cs",
+              "RelativeToolTip": "Models\\UserWithRole.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T19:13:50.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserFilterModel.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UserFilterModel.cs",
+              "RelativeDocumentMoniker": "Models\\UserFilterModel.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UserFilterModel.cs",
+              "RelativeToolTip": "Models\\UserFilterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T19:14:43.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PaymentFilter.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\PaymentFilter.cs",
+              "RelativeDocumentMoniker": "Models\\PaymentFilter.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\PaymentFilter.cs",
+              "RelativeToolTip": "Models\\PaymentFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T11:58:31.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "InstructorEarnings.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\InstructorEarnings.cs",
+              "RelativeDocumentMoniker": "Models\\InstructorEarnings.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\InstructorEarnings.cs",
+              "RelativeToolTip": "Models\\InstructorEarnings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T07:35:13.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AssignmentFilter.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\AssignmentFilter.cs",
+              "RelativeDocumentMoniker": "Models\\AssignmentFilter.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\AssignmentFilter.cs",
+              "RelativeToolTip": "Models\\AssignmentFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T17:32:39.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetStudents.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GetStudents.cs",
+              "RelativeDocumentMoniker": "Models\\GetStudents.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GetStudents.cs",
+              "RelativeToolTip": "Models\\GetStudents.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T08:21:55.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Service\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Service\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Service\\JwtTokenService.cs",
+              "RelativeToolTip": "Service\\JwtTokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T13:43:07.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T10:20:18.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UnreadCount.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UnreadCount.cs",
+              "RelativeDocumentMoniker": "Models\\UnreadCount.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UnreadCount.cs",
+              "RelativeToolTip": "Models\\UnreadCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-13T15:19:13.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "GroupReadRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GroupReadRequest.cs",
+              "RelativeDocumentMoniker": "Models\\GroupReadRequest.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GroupReadRequest.cs",
+              "RelativeToolTip": "Models\\GroupReadRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T08:07:44.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "GroupMessageRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GroupMessageRequest.cs",
+              "RelativeDocumentMoniker": "Models\\GroupMessageRequest.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GroupMessageRequest.cs",
+              "RelativeToolTip": "Models\\GroupMessageRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:23:14.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "GroupMessage.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GroupMessage.cs",
+              "RelativeDocumentMoniker": "Models\\GroupMessage.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GroupMessage.cs",
+              "RelativeToolTip": "Models\\GroupMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T06:25:14.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GroupChatRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GroupChatRequest.cs",
+              "RelativeDocumentMoniker": "Models\\GroupChatRequest.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GroupChatRequest.cs",
+              "RelativeToolTip": "Models\\GroupChatRequest.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T05:20:00.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ChatUser.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\ChatUser.cs",
+              "RelativeDocumentMoniker": "Models\\ChatUser.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\ChatUser.cs",
+              "RelativeToolTip": "Models\\ChatUser.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA0wAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T09:35:51.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ChatMessage.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\ChatMessage.cs",
+              "RelativeDocumentMoniker": "Models\\ChatMessage.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\ChatMessage.cs",
+              "RelativeToolTip": "Models\\ChatMessage.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T08:53:47.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ChatReadModel.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\ChatReadModel.cs",
+              "RelativeDocumentMoniker": "Models\\ChatReadModel.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\ChatReadModel.cs",
+              "RelativeToolTip": "Models\\ChatReadModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T10:53:13.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserPayment.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UserPayment.cs",
+              "RelativeDocumentMoniker": "Models\\UserPayment.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\UserPayment.cs",
+              "RelativeToolTip": "Models\\UserPayment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-09T06:35:47.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CoursesResponse.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\CoursesResponse.cs",
+              "RelativeDocumentMoniker": "Models\\CoursesResponse.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\CoursesResponse.cs",
+              "RelativeToolTip": "Models\\CoursesResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T06:28:13.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "MyEnrollment.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\MyEnrollment.cs",
+              "RelativeDocumentMoniker": "Models\\MyEnrollment.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\MyEnrollment.cs",
+              "RelativeToolTip": "Models\\MyEnrollment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T14:42:22.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "StudentEntrolled.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\StudentEntrolled.cs",
+              "RelativeDocumentMoniker": "Models\\StudentEntrolled.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\StudentEntrolled.cs",
+              "RelativeToolTip": "Models\\StudentEntrolled.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T12:28:09.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T05:46:33.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "SaveAssignment.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SaveAssignment.cs",
+              "RelativeDocumentMoniker": "Models\\SaveAssignment.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SaveAssignment.cs",
+              "RelativeToolTip": "Models\\SaveAssignment.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T10:32:25.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "StudentSubmissionView.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\StudentSubmissionView.cs",
+              "RelativeDocumentMoniker": "Models\\StudentSubmissionView.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\StudentSubmissionView.cs",
+              "RelativeToolTip": "Models\\StudentSubmissionView.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:53:04.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "GradeSubmission.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GradeSubmission.cs",
+              "RelativeDocumentMoniker": "Models\\GradeSubmission.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\GradeSubmission.cs",
+              "RelativeToolTip": "Models\\GradeSubmission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T09:15:39.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "SubmissionCreate.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SubmissionCreate.cs",
+              "RelativeDocumentMoniker": "Models\\SubmissionCreate.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SubmissionCreate.cs",
+              "RelativeToolTip": "Models\\SubmissionCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T06:51:05.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "SubmissionView.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SubmissionView.cs",
+              "RelativeDocumentMoniker": "Models\\SubmissionView.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SubmissionView.cs",
+              "RelativeToolTip": "Models\\SubmissionView.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA9wAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T18:13:20.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "Models\\ChangePasswordDto.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\ChangePasswordDto.cs",
+              "RelativeToolTip": "Models\\ChangePasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T05:04:49.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "SearchRequest.cs",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SearchRequest.cs",
+              "RelativeDocumentMoniker": "Models\\SearchRequest.cs",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\Models\\SearchRequest.cs",
+              "RelativeToolTip": "Models\\SearchRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T07:54:29.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "OnlineCourseApi.csproj",
+              "DocumentMoniker": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\OnlineCourseApi.csproj",
+              "RelativeDocumentMoniker": "OnlineCourseApi.csproj",
+              "ToolTip": "C:\\Users\\vinayak.vs\\source\\repos\\OnlineCourseApi\\OnlineCourseApi.csproj",
+              "RelativeToolTip": "OnlineCourseApi.csproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAABRwBsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-25T05:10:17.975Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
